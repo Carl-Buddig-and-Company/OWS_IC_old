@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="IC_ReceiveTransfers.aspx.vb" Inherits="OWS_IC.IC_ReceiveTransfers" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="IC_ReceiveTransfers.aspx.vb" Inherits="OWS_IC_old.IC_ReceiveTransfers" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 

@@ -1,0 +1,10 @@
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC_old.Resources.resources
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC_old.vbproj.GenerateResource.cache
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC_old.vbproj.CoreCompileInputs.cache
+C:\Users\itintern\source\repos\OWS_IC_old\bin\OWS_IC_old.dll.config
+C:\Users\itintern\source\repos\OWS_IC_old\bin\OWS_IC_old.dll
+C:\Users\itintern\source\repos\OWS_IC_old\bin\OWS_IC_old.pdb
+C:\Users\itintern\source\repos\OWS_IC_old\bin\OWS_IC_old.xml
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC_old.dll
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC_old.xml
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC_old.pdb

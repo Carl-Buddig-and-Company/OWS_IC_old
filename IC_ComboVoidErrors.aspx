@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="IC_ComboVoidErrors.aspx.vb" Inherits="OWS_IC.IC_ComboVoidErrors" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="IC_ComboVoidErrors.aspx.vb" Inherits="OWS_IC_old.IC_ComboVoidErrors" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 

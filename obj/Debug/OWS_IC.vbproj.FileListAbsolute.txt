@@ -1,0 +1,4 @@
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC.vbproj.AssemblyReference.cache
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC_old.Resources.resources
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC.vbproj.GenerateResource.cache
+C:\Users\itintern\source\repos\OWS_IC_old\obj\Debug\OWS_IC.vbproj.CoreCompileInputs.cache

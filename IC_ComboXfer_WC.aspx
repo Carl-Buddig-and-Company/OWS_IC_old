@@ -1,4 +1,4 @@
-<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="IC_ComboXfer_WC.aspx.vb" Inherits="OWS_IC.IC_ComboXfer_WC" %>
+<%@ Page Language="vb" AutoEventWireup="false" CodeBehind="IC_ComboXfer_WC.aspx.vb" Inherits="OWS_IC_old.IC_ComboXfer_WC" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
