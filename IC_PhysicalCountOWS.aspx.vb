@@ -247,7 +247,7 @@ Partial Public Class IC_PhysicalCountOWS
             Me.lbError.Text = ""
             Me.lbError.Visible = False
 
-            If _whs = 17 Then
+            If _whs = 17 Then 'Special treatment depending on whse
                 sqlString = "Select * from vwIC_MontgomeryAllPallets Where pk_nPallet = " & CLng(pallet)
             Else
                 sqlString = "Select * from vwIC_WiscAllPallets Where pk_nPallet = " & CLng(pallet)

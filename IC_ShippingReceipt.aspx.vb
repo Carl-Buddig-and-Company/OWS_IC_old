@@ -295,7 +295,7 @@ Partial Public Class IC_ShippingReceipt
 
         Try
             If DB.MakeSQLConnection("Warehouse") Then Throw New Exception("""Create Build Combo Connection not established""")
-            If _whs = 17 Then
+            If _whs = 17 Then 'Special treatment depending on whse
                 sqlCmdShippingReceipt = DB.NewSQLCommand("SQL.Query.WCShippingReceipt17")
             Else
                 sqlCmdShippingReceipt = DB.NewSQLCommand("SQL.Query.WCShippingReceipt")

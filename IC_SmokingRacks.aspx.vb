@@ -467,7 +467,7 @@ Partial Public Class IC_SmokingRacks
         Me.lbProcessType.Text = "INTO BLAST"
         Common.SaveVariable("ProcessType", "INTO_BLAST", Page)
         Common.SaveVariable("OvenType", "8", Page)
-        If _whs = 17 Then
+        If _whs = 17 Then 'Special treatment depending on whse
             Common.SaveVariable("OvenNumber", "89", Page)
         Else
             Common.SaveVariable("OvenNumber", "88", Page)
@@ -492,7 +492,7 @@ Partial Public Class IC_SmokingRacks
         Me.lbProcessType.Text = "INTO RTE"
         Common.SaveVariable("ProcessType", "INTO_RTE", Page)
         Common.SaveVariable("OvenType", "9", Page)
-        If _whs = 17 Then
+        If _whs = 17 Then 'Special treatment depending on whse
             Common.SaveVariable("OvenNumber", "98", Page)
         Else
             Common.SaveVariable("OvenNumber", "99", Page)

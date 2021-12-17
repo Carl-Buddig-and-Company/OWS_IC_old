@@ -58,7 +58,7 @@ Partial Public Class IC_PutawayLot
         ElseIf Common.GetVariable("ScreenParam", Page).ToString = "WCFG" Then
             Me.lbPageTitle.Text = "OW Inventory - WC FG Product Putaway"
             Me.lbToBinName.Text = "WCFG"
-        ElseIf _whs = "17" Then
+        ElseIf _whs = "17" Then 'Special treatment depending on whse
             'Added to handle Montgomery FG Putaway for HF and Lot Checking
             Me.lbPageTitle.Text = "OW Inventory - Montgomery FG Putaway"
             Me.lbToBinName.Text = "OWFGM"

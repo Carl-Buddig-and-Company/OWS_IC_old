@@ -102,6 +102,7 @@ Partial Public Class IC_Menu
                 Me.lbNewWrkSamplePallet.Text = ""
 
             Case "Slicing"
+                'Special treatment depending on whse
                 If _whs = "17" Then
                     'Set Menu for Slicing Department
                     Me.lbFGPutaway.Text = "1. FG Putaway OWS Mont"                          ' 1. FG Putaway HF
@@ -171,6 +172,7 @@ Partial Public Class IC_Menu
 
 
             Case "Shipping"
+                'Special treatment depending on whse
                 If _whs = "17" Then
                     'Set Menu for Shipping Department
                     Me.lbFGPutaway.Text = "1. FG Recv From Plant 2"                             ' 1. FG Recv From Plant
@@ -298,11 +300,11 @@ Partial Public Class IC_Menu
                     ElseIf Common.GetVariable("Department", Page) = "Combos" Then
                         strURL = "~/IC_ComboMenu.aspx"
                         Common.SaveVariable("ScreenParam", "", Page)
-                    ElseIf Common.GetVariable("Department", Page) = "Slicing" And _whs = "17" Then
+                    ElseIf Common.GetVariable("Department", Page) = "Slicing" And _whs = "17" Then 'Special treatment depending on whse
                         strURL = "~/IC_PutawayLot.aspx"
                         'strURL = "~/IC_PutawayMontHF.aspx"
                         Common.SaveVariable("ScreenParam", "", Page)
-                    ElseIf Common.GetVariable("Department", Page) = "Slicing" And _whs = "35" Then
+                    ElseIf Common.GetVariable("Department", Page) = "Slicing" And _whs = "35" Then 'Special treatment depending on whse
                     Else
                         strURL = "~/IC_PutawayLot.aspx"
                         Common.SaveVariable("ScreenParam", "", Page)
@@ -524,7 +526,7 @@ Partial Public Class IC_Menu
                 Common.SaveVariable("ScreenParam", "", Page)
 
             Case "92"
-                If _whs = "17" Then
+                If _whs = "17" Then 'Special treatment depending on whse
                     strURL = "http://kma2.carlbuddig.com/inventorycontrol/default.aspx"
                 Else
                     xBadSelect = True

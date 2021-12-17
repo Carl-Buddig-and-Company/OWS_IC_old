@@ -24,6 +24,7 @@ Partial Public Class IC_ComboMenu
         Common.CheckLogin(Page)
         Me.lbUser.Text = "User : " & Common.GetVariable("User", Page)
         whse = Common.GetVariable("Whse", Page).ToString
+        'Special treatment depending on whse
         If whse = "21" Then
             Me.lbPageTitle.Text = "OW Plant 2 Combo - Menu"
         ElseIf whse = "35" Then
@@ -56,6 +57,7 @@ Partial Public Class IC_ComboMenu
         userspecial = Common.GetVariable("Special", Page)
         whse = Common.GetVariable("Whse", Page).ToString
 
+        'Special treatment depending on whse
         Select Case whse
             Case "21"
                 'Set Menu for Slicing Department
@@ -100,6 +102,7 @@ Partial Public Class IC_ComboMenu
         Select Case Me.txOption.Text
             Case "1"
                 If Me.lbOption1.Text.Length > 0 Then
+                    'Special treatment depending on whse
                     If whse = "21" Then
                         strURL = "~/IC_ComboXfer_WC.aspx"
                         Common.SaveVariable("ScreenParam", "", Page)
@@ -113,7 +116,8 @@ Partial Public Class IC_ComboMenu
 
             Case "2"
                 If Me.lbOption2.Text.Length > 0 Then
-                    If whse =  "35" Then
+                    'Special treatment depending on whse
+                    If whse = "35" Then
                         strURL = "~/IC_ComboToLine.aspx"
                         Common.SaveVariable("ScreenParam", "", Page)
                     End If
@@ -123,6 +127,7 @@ Partial Public Class IC_ComboMenu
 
             Case "3"
                 If Me.lbOption3.Text.Length > 0 Then
+                    'Special treatment depending on whse
                     If whse = "21" Then
                         strURL = "" 'IC_ComboReceive
                         Common.SaveVariable("ScreenParam", "21", Page)
@@ -136,6 +141,7 @@ Partial Public Class IC_ComboMenu
 
             Case "4"
                 If Me.lbOption4.Text.Length > 0 Then
+                    'Special treatment depending on whse
                     If whse = "21" Then
                         strURL = "" 'IC_ComboVoid
                         Common.SaveVariable("ScreenParam", "21", Page)
@@ -149,6 +155,7 @@ Partial Public Class IC_ComboMenu
 
             Case "5"
                 If Me.lbOption5.Text.Length > 0 Then
+                    'Special treatment depending on whse
                     If whse = "21" Then
                         strURL = ""
                         Common.SaveVariable("ScreenParam", "", Page)
@@ -162,6 +169,7 @@ Partial Public Class IC_ComboMenu
 
             Case "6"
                 If Me.lbOption6.Text.Length > 0 Then
+                    'Special treatment depending on whse
                     If whse = "21" Then
                         strURL = ""
                         Common.SaveVariable("ScreenParam", "", Page)
